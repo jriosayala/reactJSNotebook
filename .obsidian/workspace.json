@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "85f0273eac5fb55d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ca2e4d8c54970ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "863a0aceea3465e3",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "TO-DO Project Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "TO-DO Project Kanban"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "921298d2571d7b2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f185148ff1af79c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fad66c091da76a75",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cae953b6852b14ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f1169b22f108ed60",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d64e12d651dd93dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "6605b44001c314e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38afd12f492ecaca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TO-DO Project Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TO-DO Project Kanban"
+            }
+          },
+          {
+            "id": "d71c2841e8583d3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TO-DO Project Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TO-DO Project Kanban"
+            }
+          },
+          {
+            "id": "cfff253056dd12ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f933f1af3ecb015a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TO-DO Project Kanban.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TO-DO Project Kanban"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "863a0aceea3465e3",
+  "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "TO-DO Project Kanban.md",
+    "Essentials/More Prop Syntaxes.md",
+    "React.md",
+    "Javascript/Next Gen JS Summary.md",
+    "Javascript",
+    "Essentials",
+    "Project/TO-DO.md",
+    "Project",
+    "Content to review/Destructuring in Function Parameter Lists.md",
+    "Content to review/More on the Arrow functions Syntax.md",
+    "Content to review/import and export keywords.md",
+    "Content to review"
+  ]
+}
