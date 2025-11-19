@@ -10,7 +10,7 @@ If you got data that's already organized as a JavaScript object, you can pass th
 
 I.e., instead of
 
-```js
+```jsx
 <CoreConcept
 	title={CORE_CONCEPTS[0].title}
 	description={CORE_CONCEPTS[0].description}  
@@ -19,13 +19,13 @@ I.e., instead of
 or
 you could also pass a single `concept` (or any name of your choice) prop to the `CoreConcept` component:
 
-```js
+```jsx
 <CoreConcept
 	concept={CORE_CONCEPTS[0]} />
 ```
 In the `CoreConcept` component, you would then get that one single prop:
 
-```js
+```jsx
 export default function CoreConcept({ concept }) {
  // Use concept.title, concept.description etc.
 // Or destructure the concept object: const { title, description, image } = concept;
@@ -35,11 +35,11 @@ It is entirely up to you which syntax & approach you prefer.
 
 **Grouping Received Props Into a Single Object**
 
-You can also pass multiple props to a component and then, in the component function, group them into a single object via JavaScript's ["Rest Property"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#rest_property) syntax.
+You can also pass multiple props to a component and then, in the component function, group them into a single object via JavaScript's [[Next Gen JS Summary#^4ba648 |Rest]] syntax. 
 
 I.e., if a component is used like this:
 
-```js
+```jsx
 <CoreConcept
 	title={CORE_CONCEPTS[0].title}
 	description={CORE_CONCEPTS[0].description}  
@@ -48,7 +48,7 @@ I.e., if a component is used like this:
 
 You could group the received props into a single object like this:
 
-```js
+```jsx
 export default function CoreConcept({ ...concept }) { 
 // ...concept groups multiple values into a single object
 // Use concept.title, concept.description etc.
@@ -64,12 +64,12 @@ Sometimes, you'll build components that may receive an optional prop. For exampl
 
 So the Button component should be usable either with a type being set:
 
-```js
+```jsx
 <Button type="submit" caption="My Button" />
 ```
 Or without it:
 
-```js
+```jsx
 <Button caption="My Button" />
 ```
 
@@ -77,7 +77,7 @@ To make this component work, you might want to set a default value for the `typ
 
 This can easily be achieved since JavaScript supports default values when using object destructuring:
 
-```js
+```jsx
 export default function Button({ caption, type = "submit" }) { 
 // caption has no default value, type has a default value of "submit"
 }

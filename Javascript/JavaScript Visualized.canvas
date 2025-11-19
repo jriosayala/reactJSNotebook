@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"413d12f945448ae3","type":"group","x":-660,"y":-1260,"width":840,"height":740,"label":"JavaScript Runtime"},
+		{"id":"4c1c4b53b4d99c04","type":"text","text":"","x":-640,"y":-1215,"width":360,"height":337,"color":"#d8fe4d"},
+		{"id":"45df16423541798a","type":"text","text":"<div style=\"text-align: center\"><span style=\"font-weight: bold\">Call Stack</span></div>\n","x":-535,"y":-1240,"width":150,"height":50,"color":"#878787"},
+		{"id":"e142b6400122f1cd","type":"text","text":"","x":-240,"y":-1215,"width":399,"height":337,"color":"6"},
+		{"id":"8a4c9a8677dbc638","type":"text","text":"<div style=\"text-align: center\"><span style=\"font-weight: bold\">Web APIs</span></div>\n","x":-119,"y":-1240,"width":179,"height":50,"color":"#878787"},
+		{"id":"527acc8cc83248bf","type":"text","text":"<span style=\"color: green\">*fetch*</span>","x":-216,"y":-1165,"width":99,"height":50,"color":"#14161a"},
+		{"id":"2a5e14079cb849d7","type":"text","text":"<span style=\"color: green\">*setTimeout*</span>","x":-96,"y":-1165,"width":144,"height":50,"color":"#14161a"},
+		{"id":"52280902cb03f582","type":"text","text":"<span style=\"color: #4fb4a1\">*localStorage*</span>","x":-216,"y":-1092,"width":160,"height":50,"color":"#14161a"},
+		{"id":"be216afd1e379c13","type":"text","text":"<span style=\"color: #4fb4a1\">*sessionStorage*</span>","x":-29,"y":-1092,"width":170,"height":50,"color":"#14161a"},
+		{"id":"abc8d96e020e7d91","type":"text","text":"<span style=\"color: #4fb4a1\">*HTMLDivElement*</span>","x":-216,"y":-1020,"width":186,"height":50,"color":"#14161a"},
+		{"id":"6f19ad8fe7505b50","type":"text","text":"<span style=\"color: #4fb4a1\">*document*</span>","x":1,"y":-1020,"width":140,"height":50,"color":"#14161a"},
+		{"id":"a4d94e272a15a0f6","type":"text","text":"<div style=\"text-align: center;\">\n    <span style=\"color: gray;\">Many more...</span>\n</div>","x":-216,"y":-953,"width":357,"height":50},
+		{"id":"5467d084265d9c6e","type":"text","text":"","x":-411,"y":-840,"width":570,"height":135,"color":"3"},
+		{"id":"73d926a69428698a","type":"text","text":"<div style=\"text-align: center\"><span style=\"font-weight: bold\">Task Queue</span></div>\n","x":-214,"y":-865,"width":179,"height":50,"color":"#878787"},
+		{"id":"3faa15bb5fce549c","type":"text","text":"","x":-411,"y":-680,"width":570,"height":135,"color":"5"},
+		{"id":"092f92b6bc5e1b9c","type":"text","text":"<div style=\"text-align: center\"><span style=\"font-weight: bold\">Microtask Queue</span></div>\n","x":-232,"y":-699,"width":193,"height":50,"color":"#878787"},
+		{"id":"f395ece61514618a","type":"text","text":"","x":-635,"y":-840,"width":200,"height":295},
+		{"id":"6b0bf1b7601fa2dd","type":"text","text":"<div style=\"text-align: center\"><span style=\"font-weight: bold\">Event Loop</span></div>\n","x":-614,"y":-865,"width":159,"height":50,"color":"#878787"},
+		{"id":"9c4201bbbe8788ec","type":"file","file":"assets/loading.gif","x":-570,"y":-734,"width":71,"height":71,"color":"#ffffff"}
+	],
+	"edges":[]
+}

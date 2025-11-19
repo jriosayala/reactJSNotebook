@@ -12,17 +12,17 @@ kanban-plugin: board
 	- `Footer Component`: Static component with copyright information.
 	- `UserProfile Component`: This will be a dynamic component showing user details.
 - [x] 3. **Implementing JSX and Custom Components**
-- [ ] 4. **Dynamic Values and Props**
-- [ ] 5. ** State Management and Hooks**
-- [ ] 6. **Conditional Rendering**
-- [ ] 7. **List Rendering and Global State Management**
-- [ ] 8. **Event Handling and Function Passing**
-- [ ] 9. **. CSS and Styling**
+- [x] 4. **Dynamic Values and Props**
+- [x] 5. ** State Management and Hooks**
+- [x] 6. **Conditional Rendering**
+- [x] 7. **List Rendering and Global State Management**
+- [x] 8. **Event Handling and Function Passing**
+- [x] 9. **. CSS and Styling**
 
 
 ## React Essentials - Deep Dive
 
-- [ ] 1. **Refining Component Structure**
+- [x] 1. **Refining Component Structure**
 		- Split components
 		- Use fragments
 - [ ] 2. **Advanced Props Handling**
@@ -34,7 +34,7 @@ kanban-plugin: board
 - [ ] 4. **State Management Enhancements**
 		- Lifting State Up
 		- Immutable State Updates
-- [ ] 5. **Performance Optimizations**
+- [x] 5. **Performance Optimizations**
 		- Avoid Unnecessary State
 		- Computed Values
 - [ ] 6. ** Two-Way Data Binding**
@@ -49,7 +49,7 @@ kanban-plugin: board
 
 ## Styliing React components
 
-- [ ] 1. **CSS Modules**
+- [x] 1. **CSS Modules**
 		- Split CSS
 - [ ] 2. **Inline Styles**
 - [ ] 3. **Styled Components**
@@ -74,7 +74,7 @@ kanban-plugin: board
 - [ ] 2. **Using Refs for Functional Enhancements**
 		- Timer Management
 		- Custom Component Refs
-- [ ] 3. **Advanced Ref Techinques**
+- [x] 3. **Advanced Ref Techinques**
 		- useImperativeHandle Hook
 - [ ] 4. **Modal Component with Portals**
 		- Adding a Modal Component

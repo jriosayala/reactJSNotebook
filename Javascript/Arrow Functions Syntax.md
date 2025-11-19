@@ -8,7 +8,7 @@ If your arrow functions takes **exactly one parameter**, you may **omit** the
 
 Instead of
 
-1. ``` (userName) => { ... }```
+1. ```(userName) => { ... }```
 
 you could write
 1. ```userName => { ... }```
@@ -33,14 +33,21 @@ number => {
 ```
 
 you could write
+```js 
+// The following code would be invalid:
+number =>  return number * 3;
+// invalid because return keyword must also be omitted!
+```
 
-1.```js number => number * 3;```
+correct way
+```js 
+number => number * 3;
+```
 
-The following code would be invalid:
-
-1.``` number => return number * 3;``` // invalid because return keyword must also be omitted!
-
-2.``` number => if (number === 2) { return 5 };``` // invalid because if statements can't be returned
+```js 
+number => if (number === 2 { return 5 });
+// invalid because if statements can't be returned``` 
+```
 
 **3) Special case: Just returning an object**
 
